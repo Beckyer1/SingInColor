@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>SING IN COLOR</title>
+  <link rel="icon" type="image/png" href="imagenes/logoSitio.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+  <!-- Canvas para Three.js -->
+  <canvas class="webgl"></canvas>
+  <canvas class="something"></canvas>
+  <canvas class="viva"></canvas>
+  <canvas class="sky"></canvas>
+
+
+
+  <!-- Botón de regreso -->
+  <button id="backButton" style="display: none;">← Home page</button>
+    <!-- Botón de siguiente cancion -->
+    <button id="nextSong1" style="display: none;">Next song →</button>
+    <button id="nextSong2" style="display: none;">Next song →</button>
+    <button id="nextSong3" style="display: none;">Next song →</button>
+
+
+  <!-- Contenedor centrado -->
+  <div class="container">
+    <img src="/imagenes/logo.png" alt="Coldplay Logo" class="logo" />
+
+    <!-- Botones -->
+    <div class="buttons">
+      <button class="btn btn-something">Something just like this</button>
+      <button class="btn btn-viva">Viva la vida</button>
+      <button class="btn btn-sky">A sky full of stars</button>      
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/dat.gui/build/dat.gui.min.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
