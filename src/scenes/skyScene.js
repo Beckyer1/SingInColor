@@ -761,10 +761,12 @@ let pressure;
 let bloom;
 
 import { defineConfig } from 'vite';
+
 export default defineConfig({
-  base: '/SingInColor/', // importante la barra al final
+  base: '/SingInColor/',
 });
-let ditheringTexture = createTextureAsync('/textura/LDR_RGB1_0.png');
+
+let ditheringTexture = createTextureAsync(import.meta.env.BASE_URL + 'textura/LDR_RGB1_0.png');
 
 const clearProgram               = new GLProgram(baseVertexShader, clearShader);
 const colorProgram               = new GLProgram(baseVertexShader, colorShader);
