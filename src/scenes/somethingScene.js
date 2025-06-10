@@ -132,7 +132,7 @@ if (nextSong1) {
     //clearInterval(subtitleInterval);
     console.log('Audio detenido al presionar nextSong1');
   });
-} else 
+}
 
   
  ///////////////  TEXTURA
