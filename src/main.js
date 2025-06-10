@@ -23,19 +23,19 @@ document.body.appendChild(logo2);
 // subSomething
 const subSomething = document.createElement('div');
 subSomething.className = 'subSomething-text';
-subSomething.textContent = 'Sing in Color';
+subSomething.textContent = '"Something just like this"';
 document.body.appendChild(subSomething);
 
 // subSky
 const subSky = document.createElement('div');
 subSky.className = 'subSky-text';
-subSky.textContent = 'Sing in Color';
+subSky.textContent = '"A sky full of stars"';
 document.body.appendChild(subSky);
 
 // subViva
 const subViva = document.createElement('div');
 subViva.className = 'subViva-text';
-subViva.textContent = 'Sing in Color';
+subViva.textContent = '"Viva la vida"';
 document.body.appendChild(subViva);
 
 const historyButton = document.createElement('a');
