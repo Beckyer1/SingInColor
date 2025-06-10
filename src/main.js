@@ -212,6 +212,8 @@ const container = document.querySelector('.container');
 const backButton = document.getElementById('backButton');
 
 function showScene() {
+  console.log('showScene');
+  
   const backButton = document.getElementById('backButton');
   const nextSong1 = document.getElementById('nextSong1');
   const nextSong2 = document.getElementById('nextSong2');
