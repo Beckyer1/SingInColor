@@ -19,6 +19,7 @@ logo2.className = 'logo2-text';
 logo2.textContent = 'Sing in Color';
 document.body.appendChild(logo2);
 
+
 // Crear subtritulos
 // subSomething
 const subSomething = document.createElement('div');
