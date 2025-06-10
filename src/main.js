@@ -19,6 +19,17 @@ logo2.className = 'logo2-text';
 logo2.textContent = 'Sing in Color';
 document.body.appendChild(logo2);
 
+// Crear Subtitulos
+// subSomething
+const subSomething = document.createElement('div');
+subSomething.className = 'subSomething-text';
+subSomething.textContent = 'something just like this';
+document.body.appendChild(subSomething);
+
+
+
+
+
 const historyButton = document.createElement('a');
 historyButton.className = 'history-button';
 historyButton.href = 'https://es.wikipedia.org/wiki/Coldplay';
@@ -210,6 +221,7 @@ function showScene() {
     nextSong2.style.display = 'none'; 
     nextSong3.style.display = 'none'; 
     logo2.style.display = 'block';
+    subSomething.style.display = 'block';
     instructionContainer.style.display = 'block';
     infoContainer.style.display = 'none';
     window.removeEventListener('click', handleClickForStars);
@@ -226,6 +238,7 @@ function showScene() {
     nextSong2.style.display = 'block';
     nextSong3.style.display = 'none';
     logo2.style.display = 'block';
+    subSomething.style.display = 'block';
     instructionContainer.style.display = 'block';
     infoContainer.style.display = 'none';
     window.removeEventListener('click', handleClickForStars);
@@ -242,6 +255,7 @@ function showScene() {
     nextSong2.style.display = 'none'; 
     nextSong3.style.display = 'block';
     logo2.style.display = 'block';
+    subSomething.style.display = 'block';
     instructionContainer.style.display = 'block';
     infoContainer.style.display = 'none';
     window.removeEventListener('click', handleClickForStars);
@@ -258,6 +272,7 @@ function showScene() {
     nextSong2.style.display = 'none';
     nextSong3.style.display = 'none';
     logo2.style.display = 'none';
+    subSomething.style.display = 'none';
     instructionContainer.style.display = 'none';
     infoContainer.style.display = 'flex';
     window.addEventListener('click', handleClickForStars);
