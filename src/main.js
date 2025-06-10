@@ -19,6 +19,25 @@ logo2.className = 'logo2-text';
 logo2.textContent = 'Sing in Color';
 document.body.appendChild(logo2);
 
+// Crear subtritulos
+// subSomething
+const subSomething = document.createElement('div');
+subSomething.className = 'subSomething-text';
+subSomething.textContent = 'Sing in Color';
+document.body.appendChild(subSomething);
+
+// subSky
+const subSky = document.createElement('div');
+subSky.className = 'subSky-text';
+subSky.textContent = 'Sing in Color';
+document.body.appendChild(subSky);
+
+// subViva
+const subViva = document.createElement('div');
+subViva.className = 'subViva-text';
+subViva.textContent = 'Sing in Color';
+document.body.appendChild(subViva);
+
 const historyButton = document.createElement('a');
 historyButton.className = 'history-button';
 historyButton.href = 'https://es.wikipedia.org/wiki/Coldplay';
@@ -210,6 +229,9 @@ function showScene() {
     nextSong2.style.display = 'none'; 
     nextSong3.style.display = 'none'; 
     logo2.style.display = 'block';
+    subSomething.style.display = 'block'; 
+    subViva.style.display = 'none'; 
+    subSky.style.display = 'none'; 
     instructionContainer.style.display = 'block';
     infoContainer.style.display = 'none';
     window.removeEventListener('click', handleClickForStars);
@@ -226,6 +248,9 @@ function showScene() {
     nextSong2.style.display = 'block';
     nextSong3.style.display = 'none';
     logo2.style.display = 'block';
+    subSomething.style.display = 'none'; 
+    subViva.style.display = 'block'; 
+    subSky.style.display = 'none';
     instructionContainer.style.display = 'block';
     infoContainer.style.display = 'none';
     window.removeEventListener('click', handleClickForStars);
@@ -242,6 +267,9 @@ function showScene() {
     nextSong2.style.display = 'none'; 
     nextSong3.style.display = 'block';
     logo2.style.display = 'block';
+    subSomething.style.display = 'none'; 
+    subViva.style.display = 'none'; 
+    subSky.style.display = 'block';
     instructionContainer.style.display = 'block';
     infoContainer.style.display = 'none';
     window.removeEventListener('click', handleClickForStars);
@@ -258,6 +286,9 @@ function showScene() {
     nextSong2.style.display = 'none';
     nextSong3.style.display = 'none';
     logo2.style.display = 'none';
+    subSomething.style.display = 'none'; 
+    subViva.style.display = 'none'; 
+    subSky.style.display = 'none';
     instructionContainer.style.display = 'none';
     infoContainer.style.display = 'flex';
     window.addEventListener('click', handleClickForStars);

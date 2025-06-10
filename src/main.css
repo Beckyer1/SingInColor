@@ -278,6 +278,51 @@ canvas.sky{
   pointer-events: none; /* opcional, para que no interfiera con clicks */
 }
 
+.subSomething-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+
+  position: fixed;
+  top: 70px;       /* distancia desde arriba */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10000;  /* para que esté arriba de todo */
+  pointer-events: none; /* opcional, para que no interfiera con clicks */
+}
+
+.subSky-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+
+  position: fixed;
+  top: 70px;       /* distancia desde arriba */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10000;  /* para que esté arriba de todo */
+  pointer-events: none; /* opcional, para que no interfiera con clicks */
+}
+
+.subViva-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+
+  position: fixed;
+  top: 70px;       /* distancia desde arriba */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10000;  /* para que esté arriba de todo */
+  pointer-events: none; /* opcional, para que no interfiera con clicks */
+}
+
 
 .history-button {
   font-family: 'Montserrat', sans-serif;

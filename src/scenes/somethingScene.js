@@ -123,6 +123,7 @@ function handleBack() {
   }
 }
 
+// Manejar el botón nextSong1
 const nextSong1 = document.getElementById('nextSong1');
 if (nextSong1) {
   nextSong1.addEventListener('click', () => {
@@ -130,14 +131,8 @@ if (nextSong1) {
     audio.currentTime = 0;
     //clearInterval(subtitleInterval);
     console.log('Audio detenido al presionar nextSong1');
-
-    // Cambiar a la escena viva
-    escenaActiva = 'viva';
-    showScene();  // o la función que uses para mostrar la escena viva
   });
-} else {
-  console.warn('No se encontró el botón con id "nextSong1"');
-}
+} else 
 
   
  ///////////////  TEXTURA
