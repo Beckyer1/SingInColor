@@ -286,7 +286,7 @@ canvas.sky{
   letter-spacing: 1px;
 
   position: fixed;
-  top: 50px;       /* distancia desde arriba */
+  top: 65px;       /* distancia desde arriba */
   left: 50%;
   transform: translateX(-50%);
   z-index: 10000;  /* para que esté arriba de todo */
@@ -301,7 +301,7 @@ canvas.sky{
   letter-spacing: 1px;
 
   position: fixed;
-  top: 50px;       /* distancia desde arriba */
+  top: 65px;       /* distancia desde arriba */
   left: 50%;
   transform: translateX(-50%);
   z-index: 10000;  /* para que esté arriba de todo */
@@ -316,7 +316,7 @@ canvas.sky{
   letter-spacing: 1px;
 
   position: fixed;
-  top: 50px;       /* distancia desde arriba */
+  top: 65px;       /* distancia desde arriba */
   left: 50%;
   transform: translateX(-50%);
   z-index: 10000;  /* para que esté arriba de todo */
